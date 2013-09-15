@@ -2,3 +2,4 @@
 {"contributors":[],"silentsave":false,"ts":1379113826083,"patch":[[{"diffs":[[0,"takt</a>"],[1,"\n</nav>"],[0,"\n\n</body"]],"start1":327,"start2":327,"length1":16,"length2":23}]],"length":359,"saved":false}
 {"ts":1379172920529,"patch":[[{"diffs":[[0,"nav>"],[-1,"\n\n</body>\n</html>"]],"start1":338,"start2":338,"length1":21,"length2":4}]],"length":342,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1379173790089,"patch":[[{"diffs":[[0,"t</a>\n</nav>"],[1,"\n\n</body>\n</html>"]],"start1":330,"start2":330,"length1":12,"length2":29}]],"length":359,"saved":false}
+{"ts":1379207001401,"patch":[[{"diffs":[[0,"ner.html"],[-1,"/"],[0,"\">Labbar"]],"start1":277,"start2":277,"length1":17,"length2":16}]],"length":358,"saved":false}
