@@ -1,3 +1,32 @@
-hr {color:sienna;}
-p {margin-left:20px;}
-body {background-color:blue;}
+
+html{
+    background-color:white;}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid;
+    position:relative;
+}
+
+header {position:relative;
+top:5px;
+width:1200px;
+border: 1px solid;
+display:block;clear:both;
+background-color:black;
+}
+
+header h1{color:green;}
+
+nav{
+     float:left; max-width: 14%; margin-top: 10px; border: 1px solid #000;position:relative;max-height: none;
+}
+
+section{
+    margin: 5px 0 0 5px;border: 1px solid; max-height: none; float:right; position:relative;max-width:85%;
+    
+}
+footer{
+    position:relative;width:1200px;display:block;clear:both;background-color:green;
+}
