@@ -5,7 +5,8 @@ border-color=gray
 
 */
 html{
-    background-color:red;}
+    background-color:red;
+    }
 
 #container {
     max-width: 1200px;
@@ -14,6 +15,7 @@ html{
     position:relative;
 }
 
+/* Header start */
 header {
 position:relative;
 top:0px;
@@ -25,11 +27,20 @@ font:bold 12px Arial, serif;color:green;
 max-height:400px;
 }
 
-header h1{color:green;}
+header h1{color:green; text-align:center;
+}
+header h2{color:green; text-align:center;
+    
+}
+header p{color:green; text-align:center;
+    
+}
+/* Header end */
 
+/* Meny */
 nav{
      float:left;
-     width:200;
+     width:100px;
      margin: 0 0 0 0;
      position:relative;
      max-height: none;
@@ -51,15 +62,16 @@ nav a {
     width: 120px;
     display: inline-block;
 }
-li:hover a, li:hover #active {
+nav li:hover a, nav li:hover #active {
     color: black;
 }
-li #active {
+nav li #active {
     color: blue;
 }
-li #active:hover {
+nav li #active:hover {
     color: black;
 }
+/* Meny end*/
 section{
     margin: 0 0 0 0;border: 3px solid; border-color:gray; max-height: none; float:left; position:relative ;width: 920px ;
     clear:right;background-color:white;
