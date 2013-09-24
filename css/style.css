@@ -1,6 +1,10 @@
+/*
+Background=orange
 
+
+*/
 html{
-    background-color:white;}
+    background-color:orange;}
 
 #container {
     max-width: 1200px;
@@ -15,18 +19,21 @@ width:1200px;
 border: 1px solid;
 display:block;clear:both;
 background-color:black;
+font:bold 12px Arial, serif;color:green;
 }
 
 header h1{color:green;}
 
 nav{
-     float:left; max-width: 14%; margin-top: 10px; border: 1px solid #000;position:relative;max-height: none;
+     float:left; width:200; margin-top: 10px; border: 1px solid #000;position:relative;max-height: none;
 }
 
 section{
-    margin: 5px 0 0 5px;border: 1px solid; max-height: none; float:right; position:relative;max-width:85%;
+    margin: 5px 0 0 5px;border: 3px solid color:gray; max-height: none; float:left; position:relative ;width: 920px ;
+    clear:right;background-color:white;
     
 }
 footer{
-    position:relative;width:1200px;display:block;clear:both;background-color:green;
+    position:relative;width:1200px;display:block;clear:both;background-color:black;Max-height:100px;
+    font:bold 12px Arial, serif;color:green;
 }
