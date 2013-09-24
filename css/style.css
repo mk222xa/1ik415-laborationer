@@ -1,10 +1,11 @@
 /*
-Background=orange
+Background=red
+border-color=gray
 
 
 */
 html{
-    background-color:orange;}
+    background-color:red;}
 
 #container {
     max-width: 1200px;
@@ -13,27 +14,58 @@ html{
     position:relative;
 }
 
-header {position:relative;
-top:5px;
+header {
+position:relative;
+top:0px;
 width:1200px;
-border: 1px solid;
-display:block;clear:both;
-background-color:black;
+border: 3px solid; border-color:gray;
+clear:both;
+background-color:black;display:block;
 font:bold 12px Arial, serif;color:green;
+max-height:400px;
 }
 
 header h1{color:green;}
 
 nav{
-     float:left; width:200; margin-top: 10px; border: 1px solid #000;position:relative;max-height: none;
+     float:left;
+     width:200;
+     margin: 0 0 0 0;
+     position:relative;
+     max-height: none;
+     font:bold 14px Arial, serif;
+     background-color:red;
+     padding: 10px; 
 }
-
+nav ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+nav ul li:hover a,  nav ul:hover #active {
+}
+nav li:hover, nav li:hover + li {
+    border-color: red;
+}
+nav a {
+    width: 120px;
+    display: inline-block;
+}
+li:hover a, li:hover #active {
+    color: black;
+}
+li #active {
+    color: blue;
+}
+li #active:hover {
+    color: black;
+}
 section{
-    margin: 5px 0 0 5px;border: 3px solid color:gray; max-height: none; float:left; position:relative ;width: 920px ;
+    margin: 0 0 0 0;border: 3px solid; border-color:gray; max-height: none; float:left; position:relative ;width: 920px ;
     clear:right;background-color:white;
     
 }
 footer{
-    position:relative;width:1200px;display:block;clear:both;background-color:black;Max-height:100px;
-    font:bold 12px Arial, serif;color:green;
+    position:relative;width:1200px;display:block;clear:both;background-color:black;height:100px;
+    font:bold 12px Arial, serif;color:green;border: 3px solid; border-color:gray;
 }
