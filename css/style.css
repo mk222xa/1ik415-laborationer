@@ -12,9 +12,13 @@ html{
 #container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 0px solid;
+    border: 3px solid;
+    border-color:green;
     position:relative;
     background-color:black;
+}
+#video1{
+    float:right;
 }
 
 /* Header start */
@@ -82,7 +86,7 @@ nav li #active:hover
 }
 /* Meny end*/
 
-/*Using a gray border to frame the content on the page, floating right with a white background and black text
+/*Using a green border to frame the content on the page, floating right with a white background and black text
 for easy reading.*/
 section
 {
