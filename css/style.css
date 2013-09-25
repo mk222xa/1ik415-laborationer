@@ -5,7 +5,8 @@ border-color=gray
 
 */
 html{
-    background-color:black;
+   background: url("pics/background1.png");
+   background-size: 50%;
     }
 
 #container {
@@ -13,6 +14,7 @@ html{
     margin: 0 auto;
     border: 0px solid;
     position:relative;
+    background-color:black;
 }
 
 /* Header start */
@@ -84,14 +86,16 @@ nav li #active:hover
 for easy reading.*/
 section
 {
-    margin: 0 0 0 0;border: 3px solid; border-color:gray; max-height: none; float:right; position:relative ;width: 1050px ;
+    margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:right; position:relative ;width: 1050px ;
     background-color:white;
 }
 /* No border, centered text*/
 footer
 {
-    position:relative;max-width:1200px;display:block;clear:both;background-color:black;max-height:100px;
-    font:bold 12px Arial, serif;color:green;
+    position:relative;max-width:1200px;display:block;clear:both;
+    max-height:100px;
+    font:bold 24px Arial, serif;color:green;
+    background-color:black;
 }
 
 footer p
