@@ -9,18 +9,16 @@ html{
    background-size: 50%;
     }
 
-#container {
+
+
+/*Classes start*/
+.container {
     max-width: 1200px;
     margin: 0 auto;
     border: 3px solid;
     border-color:green;
     position:relative;
     background-color:black;
-}
-#video1{
-    position:static;
-    display: inline-block;
-    margin:5px 5px 5px 5px;
 }
 .right{
     float:right;
@@ -30,6 +28,23 @@ html{
     float:left;
     margin-left:5px;
 }
+/*Classes end*/
+
+/*Table start*/
+table td{
+    text-align:center;
+    font:bold 14px Arial, serif;
+    background-color:green;
+    color:black;
+    padding:10px;
+}
+table th
+{
+background-color:green;
+color:black;
+padding:10px;
+}
+/*Table end*/
 
 /* Header start */
 header 
@@ -101,11 +116,12 @@ for easy reading.*/
 section
 {
     margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:right; position:relative ;width: 1050px ;
-    background-color:white;
+    background: url("pics/background2.png");
+    background-size: 100%;
 }
 /* Centered text*/
 section h3{
-    text-align:center; font:bold 24px Arial, serif;width: 1050px ; background-color:green;clear:both;
+    text-align:center; font:bold 24px Arial, serif;width: 1050px ; background-color:green;clear:both;height:55px;
 }
 footer
 {
