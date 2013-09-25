@@ -5,79 +5,96 @@ border-color=gray
 
 */
 html{
-    background-color:red;
+    background-color:black;
     }
 
 #container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid;
+    border: 0px solid;
     position:relative;
 }
 
 /* Header start */
-header {
+header 
+{
 position:relative;
 top:0px;
-width:1200px;
-border: 3px solid; border-color:gray;
+width:1195px;
+border: 0px solid; border-color:gray;
 clear:both;
 background-color:black;display:block;
 font:bold 12px Arial, serif;color:green;
 max-height:400px;
 }
 
-header h1{color:green; text-align:center;
+header h1
+{color:green; text-align:center;
 }
-header h2{color:green; text-align:center;
-    
+header h2
+{color:green; text-align:center;
 }
-header p{color:green; text-align:center;
-    
+header p
+{color:green; text-align:center;
 }
 /* Header end */
 
 /* Meny */
-nav{
+nav
+{
      float:left;
      width:100px;
      margin: 0 0 0 0;
      position:relative;
      max-height: none;
      font:bold 14px Arial, serif;
-     background-color:red;
+     background-color:black;
      padding: 10px; 
 }
-nav ul {
+nav ul 
+{
     margin: 5px;
     padding: 5px;
     list-style: none;
 }
-nav ul li:hover a,  nav ul:hover #active {
-}
-nav li:hover, nav li:hover + li {
+nav li:hover, nav li:hover + li 
+{
     border-color: red;
 }
-nav a {
+nav a 
+{
     width: 120px;
     display: inline-block;
 }
-nav li:hover a, nav li:hover #active {
-    color: black;
+nav li:hover a, nav li:hover #active 
+{
+    color: red;
 }
-nav li #active {
+nav li #active 
+{
     color: blue;
 }
-nav li #active:hover {
-    color: black;
+nav li #active:hover 
+{
+    color: red;
 }
 /* Meny end*/
-section{
-    margin: 0 0 0 0;border: 3px solid; border-color:gray; max-height: none; float:left; position:relative ;width: 920px ;
-    clear:right;background-color:white;
-    
+
+/*Using a gray border to frame the content on the page, floating right with a white background and black text
+for easy reading.*/
+section
+{
+    margin: 0 0 0 0;border: 3px solid; border-color:gray; max-height: none; float:right; position:relative ;width: 1050px ;
+    background-color:white;
 }
-footer{
-    position:relative;width:1200px;display:block;clear:both;background-color:black;height:100px;
-    font:bold 12px Arial, serif;color:green;border: 3px solid; border-color:gray;
+/* No border, centered text*/
+footer
+{
+    position:relative;max-width:1200px;display:block;clear:both;background-color:black;max-height:100px;
+    font:bold 12px Arial, serif;color:green;
+}
+
+footer p
+{
+    color:green; text-align:center;
 }
