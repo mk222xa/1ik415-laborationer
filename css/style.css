@@ -18,7 +18,17 @@ html{
     background-color:black;
 }
 #video1{
+    position:static;
+    display: inline-block;
+    margin:5px 5px 5px 5px;
+}
+.right{
     float:right;
+    margin-right:5px;
+}
+.left{
+    float:left;
+    margin-left:5px;
 }
 
 /* Header start */
@@ -93,7 +103,10 @@ section
     margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:right; position:relative ;width: 1050px ;
     background-color:white;
 }
-/* No border, centered text*/
+/* Centered text*/
+section h3{
+    text-align:center; font:bold 24px Arial, serif;width: 1050px ; background-color:green;clear:both;
+}
 footer
 {
     position:relative;max-width:1200px;display:block;clear:both;
