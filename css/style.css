@@ -147,7 +147,7 @@
     }
     form legend
     {text-align:center;
-    font:bold 14px Arial, serif;       
+        font:bold 14px Arial, serif;       
     }
     form fieldset
     {text-align:left;
@@ -158,5 +158,28 @@
 /*Print sheet*/
 @media print
     {
-    
-}
+    nav
+    {display:none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:after 
+    {
+        content: " ("attr(href)")";
+        font-size: smaller;
+    }
+    form
+    {
+        display:none;
+    }
+    img
+    {
+        display:none;
+    }
+    video
+    {
+        display:none;
+    }
+    }
