@@ -143,10 +143,15 @@
         color:green; text-align:center;
     }
     form 
-    {font:16px Arial, Serif; margin: 10px;float:left;
+    {margin: 10px;float:left;
     }
     form legend
-    {font:16px Arial, Serif;
+    {text-align:center;
+    font:bold 14px Arial, serif;       
+    }
+    form fieldset
+    {text-align:left;
+        font:14px Arial, serif;
     }
 }
 
