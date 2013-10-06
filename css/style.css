@@ -77,46 +77,71 @@
     /* Header end */
     
     /* Meny */
-    nav
+    nav 
     {
         float:left;
-        width:100px;
+        width:140px;
         margin: 0 0 0 0;
         position:relative;
         max-height: none;
-        font:bold 14px Arial, serif;
-        background-color:black;
-        padding: 10px; 
-        
+        font:bold 12px Arial, serif;        
+        padding: 0px; 
+        text-indent:22px;
     }
     nav ul 
     {
-        margin: 5px;
-        padding: 5px;
-        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;      
     }
-    nav li:hover, nav li:hover + li 
-    {
-        border-color: red;
-    }
-    nav a 
+    
+    .Navigation > li a
     {
         width: 120px;
         display: inline-block;
         color:green;
+        background:url("pics/sprite.png") no-repeat;
+        background-position:0px -48px;
+        text-indent 22px;
+        padding:4px
     }
-    nav li:hover a, nav li:hover #active 
+    .Navigation .index   
     {
-        color: red;
+        background-position:0px -48px;
     }
+    .Navigation li a.index:hover 
+    {
+        background-position:0px 0px;
+    }
+    .Navigation li a.presentation
+    {
+        background-position:0px -240px;
+    }
+    .Navigation li a.presentation:hover
+    {
+        background-position:0px -192px;
+    }
+    .Navigation li a.labb
+    {
+        background-position:0px -144px;
+    }
+    .Navigation li a.labb:hover
+    {
+        background-position:0px -96px;
+    }
+    .Navigation li a.kontakt
+    {
+        background-position:0px -336px;
+    }
+    .Navigation li a.kontakt:hover
+    {
+        background-position:0px -288px;
+    }
+    
     nav li #active 
     {
         color: red;
-    }
-    nav li #active:hover 
-    {
-        color: red;
-    }
+    }  
     /* Meny end*/
     
     /*Using a green border to frame the content on the page, floating right with a white background and black text
@@ -184,4 +209,4 @@
     {
         display:none;
     }
-    }
+}
