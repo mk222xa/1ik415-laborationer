@@ -102,7 +102,7 @@
         color:green;
         background:url("pics/sprite.png") no-repeat;
         background-position:0px -48px;
-        text-indent 22px;
+        text-indent: 22px;
         padding:4px
     }
     .Navigation .index   
