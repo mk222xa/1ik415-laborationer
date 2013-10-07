@@ -148,7 +148,7 @@
     for easy reading.*/
     section
     {
-        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;max-width: 80% ;
+        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 80% ;
         background: url("pics/background2.png");
         background-size: 100%;
         padding:10px;
