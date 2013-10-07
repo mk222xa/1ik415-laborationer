@@ -21,7 +21,7 @@
         border: 3px solid;
         border-color:green;
         position:relative;
-        background-color:black;
+        background-color:black;        
     }
     .right{
         float:right;
@@ -72,7 +72,7 @@
     {color:green; text-align:center;
     }
     header p
-    {color:green; text-align:center;
+    {color:green; text-align:left;
     }
     /* Header end */
     
@@ -80,9 +80,8 @@
     nav 
     {
         float:left;
-        width:140px;
-        margin: 0 0 0 0;
-        position:relative;
+        width:140px;        
+        position:sticky;
         max-height: none;
         font:bold 12px Arial, serif;        
         padding: 0px; 
@@ -90,8 +89,8 @@
     }
     nav ul 
     {
-        margin: 0px;
-        padding: 0px;
+        margin: 2px;
+        padding: 2px;
         list-style: none;      
     }
     
@@ -103,7 +102,7 @@
         background:url("pics/sprite.png") no-repeat;
         background-position:0px -48px;
         text-indent: 22px;
-        padding:4px
+        padding:5px;
     }
     .Navigation .index   
     {
@@ -194,7 +193,8 @@
     nav
     {display:none;
     }
-    a {
+    a 
+    {
         color: black;
         text-decoration: none;
     }
@@ -213,6 +213,11 @@
     }
     video
     {
-        display:none;
+        display:none;        
     }
-}
+    
+    /*Mobile*/
+@media (max-width: 480px)
+    
+    
+    
