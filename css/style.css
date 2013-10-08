@@ -226,7 +226,7 @@
 }
 
 /*Mobile*/
-@media (-webkit-min-device-pixel-ratio: 1.5), (max-width: 480px)
+@media screen (max-width: 480px)
     {
  meta
     {
