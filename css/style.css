@@ -7,10 +7,7 @@
     
     
     */
-    meta
-    {
-        content="width:device-width, initial-scale=1.0";
-    }
+    
     html{
         background: url("pics/background1.png");
         background-size: 50%;
@@ -228,10 +225,6 @@
 /*Mobile*/
 @media only screen and (max-width: 480px)
     {
- meta
-    {
-        content="width:device-width, initial-scale=1.0";
-    }
     html
     {
         background: url("pics/background1.png");
@@ -243,35 +236,28 @@
     /*Classes start*/
     .container {
         max-width: 100%
-        margin: 0;
-        border: 3px solid;
-        border-color:green;
-        position:relative;
-        background-color:black;        
+        margin: 0;       
     }
-    .right{
-        float:right;
-        margin-right:5px;
-    }
-    .left{
-        float:left;
-        margin-left:5px;
-    }
+
     /*Classes end*/
     
     /*Table start*/
+    table
+    {
+        border-collapse:collapse;
+        font-size:smaller;
+        width:100%;
+    }
     table td{
         text-align:center;
         font:bold 14px Arial, serif;
         background-color:green;
-        color:black;
-        padding:10px;
+        color:black;        
     }
     table th
     {
         background-color:green;
-        color:black;
-        padding:10px;
+        color:black;        
     }
     /*Table end*/
     img
