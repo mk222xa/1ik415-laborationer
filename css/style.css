@@ -226,21 +226,175 @@
 }
 
 /*Mobile*/
-@media (max-width: 480px)
+@media (-webkit-min-device-pixel-ratio: 1.5), (max-width: 480px)
     {
-    meta
+ meta
     {
-        content="width:device-width, initial-scale=1.5"
+        content="width:device-width, initial-scale=4.0";
     }
-    {
-        .container {
-        max-width: 800px;
-        margin: 0 auto;
+    html{
+        background: url("pics/background1.png");
+        background-size: 50%;
+    }
+    
+    
+    
+    /*Classes start*/
+    .container {
+        max-width: 100%
+        margin: 0;
         border: 3px solid;
         border-color:green;
         position:relative;
         background-color:black;        
     }
+    .right{
+        float:right;
+        margin-right:5px;
+    }
+    .left{
+        float:left;
+        margin-left:5px;
+    }
+    /*Classes end*/
     
+    /*Table start*/
+    table td{
+        text-align:center;
+        font:bold 14px Arial, serif;
+        background-color:green;
+        color:black;
+        padding:10px;
+    }
+    table th
+    {
+        background-color:green;
+        color:black;
+        padding:10px;
+    }
+    /*Table end*/
+    img
+    {
+        max-width:100%;
+    }
     
+    /* Header start */
+    header 
+    {
+        position:relative;
+        top:0px;
+        max-width:80%;
+        border: 0px solid; border-color:gray;
+        clear:both;
+        background: url("pics/logo.png") no-repeat;
+        background-size:auto;
+        display:block;
+        font:bold 12px Arial, serif;color:green;
+        height:250px;
+        
+    }
+    
+    header h1
+    {color:green; text-align:center;
+    }
+    header h2
+    {color:green; text-align:center;
+    }
+    header p
+    {color:green; text-align:left;
+    }
+    /* Header end */
+    
+    /* Meny */
+    nav 
+    {
+        float:none;
+        max-width:auto;
+        position:relative;
+        max-height: none;
+        font:bold 12px Arial, serif;        
+        padding: 0px; 
+        text-indent:22px;
+    }
+    nav ul 
+    {
+        margin: 2px;
+        padding: 2px;
+        list-style: none;      
+    }
+    
+    .Navigation > li a
+    {
+        width: 120px;
+        display: inline-block;
+        color:green;
+        background:url("pics/sprite.png") no-repeat;
+        background-position:0px -48px;
+        text-indent: 22px;
+        padding:5px;
+    }
+    .Navigation .index   
+    {
+        background-position:0px -48px;
+    }
+    .Navigation li a.presentation
+    {
+        background-position:0px -240px;
+    }
+    .Navigation li a.labb
+    {
+        background-position:0px -144px;
+    }
+    .Navigation li a.kontakt
+    {
+        background-position:0px -336px;
+    }
+    
+    nav li #active 
+    {
+        color: red;
+    }  
+    /* Meny end*/
+    
+    /*Using a green border to frame the content on the page, floating right with a white background and black text
+    for easy reading.*/
+    section
+    {
+        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 80% ;
+        background: url("pics/background2.png");
+        background-size: 100%;
+        padding:10px;
+    }
+    /* Centered text*/
+    section h3{
+        text-align:center; font:bold 24px Arial, serif;width:100% ; background-color:green; clear:both;height:55px;float:left;
+    }
+    footer
+    {
+        position:relative;max-width:100%;display:block;clear:both;
+        max-height:none;
+        font:bold 24px Arial, serif;color:green;
+        background-color:black;
+    }
+    
+    footer p
+    {
+        color:green; text-align:center;
+    }
+    /*Form start*/
+    form 
+    {margin: 10px;float:left;
+        background-color:green;        
+    }
+    form legend
+    {text-align:center;
+        font:bold 14px Arial, serif;       
+    }
+    form fieldset
+    {text-align:left;
+        font:14px Arial, serif;
+        border-color:black;
+        border-width:5px;
+        padding:2px 2px 2px 2px;
+    }
 }
