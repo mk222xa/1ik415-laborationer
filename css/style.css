@@ -48,6 +48,10 @@
         padding:10px;
     }
     /*Table end*/
+    img
+    {
+        max-width:100%;
+    }
     
     /* Header start */
     header 
