@@ -226,7 +226,7 @@
 }
 
 /*Mobile*/
-@media screen (max-width: 480px)
+@media only screen (max-width: 480px)
     {
  meta
     {
