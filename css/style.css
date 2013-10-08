@@ -230,9 +230,10 @@
     {
  meta
     {
-        content="width:device-width, initial-scale=4.0";
+        content="width:device-width, initial-scale=1.0";
     }
-    html{
+    html
+    {
         background: url("pics/background1.png");
         background-size: 50%;
     }
@@ -286,22 +287,25 @@
         max-width:80%;
         border: 0px solid; border-color:gray;
         clear:both;
-        background: url("pics/logo.png") no-repeat;
+        background-color:black;
         background-size:auto;
         display:block;
         font:bold 12px Arial, serif;color:green;
-        height:250px;
+        height:auto;
         
     }
     
     header h1
     {color:green; text-align:center;
+        font-size:medium;
     }
     header h2
     {color:green; text-align:center;
+        font-size:medium;
     }
     header p
     {color:green; text-align:left;
+        font-size:medium;
     }
     /* Header end */
     
@@ -309,12 +313,13 @@
     nav 
     {
         float:none;
-        max-width:auto;
+        max-width:100%;
         position:relative;
         max-height: none;
         font:bold 12px Arial, serif;        
         padding: 0px; 
         text-indent:22px;
+        font-size:medium;
     }
     nav ul 
     {
@@ -332,6 +337,7 @@
         background-position:0px -48px;
         text-indent: 22px;
         padding:5px;
+        font-size:medium;
     }
     .Navigation .index   
     {
@@ -375,11 +381,13 @@
         max-height:none;
         font:bold 24px Arial, serif;color:green;
         background-color:black;
+        font-size:medium;
     }
     
     footer p
     {
         color:green; text-align:center;
+        font-size:medium;
     }
     /*Form start*/
     form 
@@ -388,7 +396,8 @@
     }
     form legend
     {text-align:center;
-        font:bold 14px Arial, serif;       
+        font:bold 14px Arial, serif;
+        font-size:medium;
     }
     form fieldset
     {text-align:left;
@@ -396,5 +405,6 @@
         border-color:black;
         border-width:5px;
         padding:2px 2px 2px 2px;
+        font-size:medium;
     }
 }
