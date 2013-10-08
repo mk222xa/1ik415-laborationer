@@ -7,6 +7,10 @@
     
     
     */
+    meta
+    {
+        content="width:device-width, initial-scale=1.0";
+    }
     html{
         background: url("pics/background1.png");
         background-size: 50%;
@@ -219,9 +223,24 @@
     {
         display:none;        
     }
-    
-    /*Mobile*/
+}
+
+/*Mobile*/
 @media (max-width: 480px)
+    {
+    meta
+    {
+        content="width:device-width, initial-scale=1.5"
+    }
+    {
+        .container {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 3px solid;
+        border-color:green;
+        position:relative;
+        background-color:black;        
+    }
     
     
-    
+}
