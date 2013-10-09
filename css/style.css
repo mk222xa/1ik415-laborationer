@@ -222,7 +222,7 @@
     }
 }
 
-/*Mobile*/
+/*----------Mobile----------*/
 @media only screen and (max-width: 480px)
     {
     html
@@ -270,7 +270,7 @@
     {
         position:relative;
         top:0px;
-        max-width:100%;
+        width:100%;
         border: 0px solid; border-color:gray;
         clear:both;
         background-color:black;
@@ -299,7 +299,7 @@
     nav 
     {
         float:none;
-        max-width:100%;
+        width:100%;
         position:relative;
         max-height: none;
         font:bold 12px Arial, serif;        
@@ -316,7 +316,7 @@
     
     .Navigation > li a
     {
-        width: 95%;
+        width: 100%;
         display: inline-block;
         color:green;
         background:url("pics/sprite.png") no-repeat;
@@ -346,13 +346,11 @@
     {
         color: red;
     }  
-    /* Meny end*/
-    
-    /*Using a green border to frame the content on the page, floating right with a white background and black text
-    for easy reading.*/
+    /* Meny end*/    
+ 
     section
     {
-        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 100% ;
+        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:static; width: 100% ;
         background: url("pics/background2.png");
         background-size: 90%;
         padding:2px;
