@@ -176,8 +176,12 @@
     /*Form start*/
     form 
     {margin: 10px;float:left;
-        background-color:green;        
+        background-color:green; 
+        position:relative;  
+        text-align:center;
+        border:1px solid black;
     }
+    
     form legend
     {text-align:center;
         font:bold 14px Arial, serif;       
@@ -226,9 +230,9 @@
 @media only screen and (max-width: 480px)
     {
     html
-    {
-        background: url("pics/background1.png");
-        background-size: 50%;
+    {        
+        background:black;
+        width:auto;
     }
     
     
@@ -236,9 +240,10 @@
     /*Classes start*/
     .container {
         width: 100%;
-        margin: 0;       
+        margin: 0;
+        border:none;
     }
-
+    
     /*Classes end*/
     
     /*Table start*/
@@ -270,15 +275,12 @@
     {
         position:relative;
         top:0px;
-        width:100%;
-        border: 0px solid; border-color:gray;
+        width:100%;        
         clear:both;
-        background-color:black;
-        background-size:auto;
+        background-color:black;        
         display:block;
         font:bold 12px Arial, serif;color:green;
-        height:auto;
-        
+        height:auto;        
     }
     
     header h1
@@ -317,13 +319,13 @@
     .Navigation > li a
     {
         width: 100%;
-        display: inline-block;
+        display:inline-block;
         color:green;
         background:url("pics/sprite.png") no-repeat;
         background-position:0px -48px;
         text-indent: 22px;
         padding:5px;
-        font-size:medium;
+        font-size:medium;        
     }
     .Navigation .index   
     {
@@ -347,13 +349,15 @@
         color: red;
     }  
     /* Meny end*/    
- 
+    
     section
     {
-        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:static; width: 100% ;
+        max-height: none; 
+        float:left; 
+        position:relative;
+        width:95%;
         background: url("pics/background2.png");
-        background-size: 90%;
-        padding:0px;
+        background-size: 75%;         
     }
     /* Centered text*/
     section h3{
