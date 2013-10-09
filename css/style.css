@@ -86,7 +86,7 @@
     {
         float:left;
         width:140px;        
-        position:sticky;
+        position:relative;
         max-height: none;
         font:bold 12px Arial, serif;        
         padding: 0px; 
