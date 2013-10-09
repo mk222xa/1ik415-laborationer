@@ -270,7 +270,7 @@
     {
         position:relative;
         top:0px;
-        max-width:80%;
+        max-width:100%;
         border: 0px solid; border-color:gray;
         clear:both;
         background-color:black;
@@ -316,7 +316,7 @@
     
     .Navigation > li a
     {
-        width: 120px;
+        width: 95%;
         display: inline-block;
         color:green;
         background:url("pics/sprite.png") no-repeat;
@@ -352,7 +352,7 @@
     for easy reading.*/
     section
     {
-        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 99% ;
+        margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 100% ;
         background: url("pics/background2.png");
         background-size: 100%;
         padding:2px;
@@ -377,7 +377,7 @@
     }
     /*Form start*/
     form 
-    {margin: 10px;float:left;
+    {margin: 5px;float:left;
         background-color:green;        
     }
     form legend
