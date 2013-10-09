@@ -235,7 +235,7 @@
     
     /*Classes start*/
     .container {
-        max-width: 100%
+        max-width: 90%
         margin: 0;       
     }
 
@@ -354,7 +354,7 @@
     {
         margin: 0 0 0 0;border: 3px solid; border-color:green; max-height: none; float:left; position:relative ;width: 100% ;
         background: url("pics/background2.png");
-        background-size: 100%;
+        background-size: 90%;
         padding:2px;
     }
     /* Centered text*/
