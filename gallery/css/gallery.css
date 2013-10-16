@@ -11,7 +11,6 @@ body
     position:relative;
     margin:auto;
 }
-
 header 
 {
     width: 100%;
@@ -22,7 +21,6 @@ header
     float: left;
     display: inline-block;
 }
-
 h1 
 {
     width: 90%;
@@ -43,7 +41,6 @@ p
     padding: 5px 5px 5px 5px;
     clear:both;
 }
-
 main 
 {
     width: 90%;
@@ -54,15 +51,12 @@ main
     display: inline-block;
     align-items:baseline;    
 }
-
 footer 
 {
     min-width: 100%;
     float: left;
     clear: both;
 }
-
-
 a 
 {
     color:white;
@@ -72,7 +66,7 @@ a
     text-align:center;
     position:relative;
 }
-
+/*Used www.css3maker.com to get values and an easier preview before implementing the code in to my own css file*/
 main a 
 {
     float:left;
@@ -92,7 +86,6 @@ main a
     border: 2px solid white;
     text-align:center;    
 }
-
 main a:after 
 {
     width: 80px;
@@ -104,7 +97,6 @@ main a:after
     display: block;
     text-align:center;
 } 
-
 main a:nth-child(3n+0) 
 {
     position: relative; 
@@ -118,7 +110,6 @@ main a:nth-child(3n+0)
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
     transition:scale(2) width 0.5s, height 0.5, transform 0.5s;
 }
-
 main a:hover 
 {
     position: relative;
@@ -133,7 +124,6 @@ main a:hover
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
     transition:scale(2) width 0.5s, height 0.5, transform 0.5s;
 }
-
 main a:focus 
 {
     position: relative;
@@ -148,7 +138,6 @@ main a:focus
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
     transition:scale(2) width 0.5s, height 0.5, transform 0.5s;
 }
-
 main img 
 {
     display: block; 
@@ -156,8 +145,7 @@ main img
     min-height: 250px;
     max-height: 250px;
     height: auto;    
-}    
-
+}   
 main img:hover {
     max-width: 100%;
     height: auto;
