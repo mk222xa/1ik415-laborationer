@@ -44,11 +44,6 @@
         max-width:25%;
         
     }
-    article
-    {
-        border:3px solid green;
-        
-    }
     
     /*Table start*/
     table td{
@@ -156,6 +151,10 @@
     .Navigation li a.kontakt:hover
     {
         background-position:0px -288px;
+    }
+    .Navigation li a.gallery
+    {
+        background:black;
     }
     
     nav li #active 
