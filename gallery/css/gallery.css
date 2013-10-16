@@ -102,7 +102,8 @@ main a
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
     transition:scale(2) width 0.5s, height 0.5, transform 0.5s;  
     border: 2px solid white;
-    text-align:center;    
+    text-align:center;  
+    margin:0 0 0 50px;
 }
 main a:after 
 {
@@ -130,13 +131,12 @@ main a:nth-child(3n+3)
 }
 main a:hover 
 {
-    position: relative;
+    position:relative;
     z-index: 10;
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    margin: 0 5rem 2rem 5rem;
+    transform: rotate(0deg);    
     -moz-transition:scale(2) width 0.5s, height 0.5s, -moz-transform 0.5s;
     -webkit-transition:scale(2) width 0.5s, height 0.5s,  -webkit-transform 0.5s;
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
@@ -149,8 +149,7 @@ main a:focus
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    margin: 0 5rem 2rem 5rem;
+    transform: rotate(0deg);    
     -moz-transition:scale(2) width 0.5s, height 0.5s, -moz-transform 0.5s;
     -webkit-transition:scale(2) width 0.5s, height 0.5s,  -webkit-transform 0.5s;
     -o-transition:scale(2) width 0.5s, height 0.5, -o-transform 0.5s;
