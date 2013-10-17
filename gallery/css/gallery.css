@@ -114,7 +114,7 @@ main a:after
     display: block;
     text-align:center;
 } 
-main a:nth-child(3n+3) 
+main a:nth-child(even) 
 {     
     -moz-transform: rotate(-5deg);
     -webkit-transform: rotate(-5deg);
@@ -122,10 +122,10 @@ main a:nth-child(3n+3)
     transform: rotate(-5deg);
 
 }
-main a:nth-child(2n+2) 
+main a:nth-child(odd) 
 {     
     -moz-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
+    -webkit-transform: rotate(5deg);
     -o-transform: rotate(15deg);
     transform: rotate(15deg);
 
@@ -159,21 +159,6 @@ main a:focus
     -o-transform:scale(2);
     transform:scale(2) ;
     -webkit-transition-duration:1.1s;    
-}
-main img 
-{
-    display: block; 
-    width:100%;
-       
-}   
-main img:hover {
-    display: block;
-        
-}
-main img:focus
-{
-    display: block;
-       
 }
 footer
 {
