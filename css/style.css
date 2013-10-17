@@ -27,6 +27,41 @@
         float:left;        
         margin-left:5px;
     }
+    .blogpost
+    {
+        float:right;
+        background-color:white;
+        border:1px solid #aaa;
+        clear:both;
+        width:50%;
+        height:auto; 
+        margin:5px 5px 5px 5px;
+        display:inline-block;
+    }
+    .secondarypost
+    {
+        border:1px dotted #aaa;
+        background-color:#aaa
+    }
+    .comment
+    {
+        background-color:white;
+        text-align:left;
+        text-decoration:underline
+    }
+    .author
+    {
+      font-family:fantasy;
+        text-indent:5px;
+    }
+    .post
+    {
+        font-family:cursive;
+        text-indent:10px;
+    }
+    
+    
+    
     /*Classes end*/
     
     /*Hcard*/
